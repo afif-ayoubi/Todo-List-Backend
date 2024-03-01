@@ -28,7 +28,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   
 	if (username === 'AdminSEF123' && password === 'SeF@ctORy$$456') {
 	
-		window.location.href = 'index.html'; 
+		window.location.href = 'todo.html'; 
 	  console.log('You have successfully logged in.');
 	} else {
 	  alert('Invalid username or password. Please try again!');									
