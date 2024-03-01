@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-start {
+  justify-content: flex-start;
+}
