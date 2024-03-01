@@ -11,3 +11,15 @@
 .flex-start {
   justify-content: flex-start;
 }
+.wave {
+  position: fixed;
+  height: 100%;
+  z-index: -1;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "poppins", sans-serif;
+}
