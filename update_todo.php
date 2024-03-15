@@ -10,7 +10,7 @@ $query = $mysqli->prepare('UPDATE todos SET
 $query->bind_param("ssi", $description, $completed, $todo_id);
 
 
-    if ($query->execute()) {
+if ($query->execute()) {
     $response['status'] = 'success';
     $response['message'] = 'Todo updated successfully.';
 } else {
@@ -19,4 +19,3 @@ $query->bind_param("ssi", $description, $completed, $todo_id);
 }
 
 echo json_encode($response);
-?>
