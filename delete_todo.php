@@ -6,7 +6,6 @@ $todo_id = $_POST['id'];
 $query = $mysqli->prepare('DELETE FROM todos WHERE id = ?');
 $query->bind_param("i", $todo_id);
 
-$response = array();
 
 if ($query->execute()) {
     $response['status'] = 'success';
